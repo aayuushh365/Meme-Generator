@@ -1,0 +1,60 @@
+.Header_div {
+  background-image: linear-gradient(to right, #672280, #a626d3);
+  height: 100px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 18.12px;
+}
+.form {
+  padding-top: 36px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two equal-width columns */
+  grid-template-rows: auto; /* one row with an automatic height */
+  align-items: center; /* align items in the middle of the row */
+  gap: 17px;
+}
+
+/* style for the inputs */
+.form input {
+  width: 100%; /* fill the entire column */
+  margin: auto; /* center the input */
+  font-size: large;
+}
+
+.form button {
+  grid-column: 1 / -1; /* span both columns */
+  height: 40px;
+  font-size: x-large;
+  background-image: linear-gradient(to right, #672280, #a626d3);
+  margin-left: 20rem;
+  margin-right: 20rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer; 
+}
+
+.form button:hover {
+  background-image: linear-gradient(to right, #a626d3, #672280);
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
